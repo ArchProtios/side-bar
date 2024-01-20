@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+::selection{
+    columns: #121212;
+    background-color: antiquewhite;
+}
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    background-color: #121212;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    transform: translateX(-250px) ;
+    background-color: #121212;
+
+}
+.sidebar li{
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.sidebar a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    background-color:  rgba(253, 253, 253, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con>button{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: beige;
+}
